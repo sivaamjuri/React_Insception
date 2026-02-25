@@ -109,21 +109,21 @@ const Results = ({ data }) => {
                                         <div className="view-container">
                                             <div className="view-label">Reference Solution</div>
                                             <div className="image-wrapper">
-                                                <img src={`https://react-inspection-backend.onrender.com/${info.solutionImage}`} alt="Solution" />
+                                                <img src={`https://react-inspection-backend.onrender.com${info.solutionImage}`} alt="Solution" />
                                             </div>
                                         </div>
 
                                         <div className="view-container student">
                                             <div className="view-label">Student Submission</div>
                                             <div className="image-wrapper">
-                                                <img src={`https://react-inspection-backend.onrender.com/${info.studentImage}`} alt="Student" />
+                                                <img src={`https://react-inspection-backend.onrender.com${info.studentImage}`} alt="Student" />
                                             </div>
                                         </div>
 
                                         <div className="view-container diff">
                                             <div className="view-label">Visual Difference</div>
                                             <div className="image-wrapper">
-                                                <img src={`https://react-inspection-backend.onrender.com/${info.diffImage}`} alt="Difference" />
+                                                <img src={`https://react-inspection-backend.onrender.com${info.diffImage}`} alt="Difference" />
                                             </div>
                                         </div>
                                     </div>
